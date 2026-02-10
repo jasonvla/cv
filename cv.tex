@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper]{article}
+
+% -------------------- Pakete --------------------
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+
+
+% -------------------- Layout --------------------
+\geometry{
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.5em}
+
+% -------------------- Abschnittsformat --------------------
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+% -------------------- Dokument --------------------
+\begin{document}
+
+% ==================== KOPF ====================
+\begin{center}
+    {\LARGE \textbf{Jason Ackermann}}\\[0.6em]
+
+    \faMapMarker*~Würzburg
+    \quad
+    \faEnvelope~\href{mailto:burgessjason613@gmail.com}{burgessjason613@gmail.com}
+    \quad
+    \faPhone~+49\,XXX\,XXXXXXX
+    \\[0.4em]
+
+    \faGithub~\href{https://github.com/jasonvla}{github.com/jasonvla}
+    \quad
+    \faLinkedin~\href{https://linkedin.com/in/...}{linkedin.com/in/...}
+\end{center}
+% ==================== PRAKTISCHE ERFAHRUNGEN ====================
+\section{Praktische Erfahrungen}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Studentische Hilfskraft}, Würzburg & ab 04/2026 \\
+Computergestützte Datenanalyse, Mitarbeit an Forschungsprojekten unter der Leitung von Prof. Dr. Fabian Moss (Institut für Musikforschung, Universität Würzburg) & \\
+\end{tabularx}
+\begin{itemize}
+    \item ...
+\end{itemize}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Orchestermanagement}, Würzburg & 02/2026 -- 03/2026\\
+Praktikum bei Achim Sauer, Einblicke in das Personal- und Datenmanagement des Theaterbetriebs & \\
+\end{tabularx}
+
+% ==================== PROJEKTE ====================
+\section{Projekte}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{An Algorithmic Comparison of Bach- and AI-Chorales} & 11/2025 -- heute \\\\
+Freiwilliges Forschungsprojekt in Zusammenarbeit mit Prof. Dr. Fabian Moss & \\
+\end{tabularx}
+\begin{itemize}
+    \item Ziel: Umfassendes Verständnis über KI-Kompositionen, Vorstellung der Ergebnisse auf der \textit{ICCCM} (September 2026) 
+    \item Auswertung erfolgt durch eigens erstellte Algorithmen in \textit{Python}, unter Zuhilfenahme der \textit{music21} Library
+\end{itemize}
+
+% ==================== SCHULE \& STUDIUM ====================
+\section{Schule \& Studium}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Julius-Maximilians-Universität}, Würzburg & ab 09/2026 \\
+\textit{B.A. Digital Humanities} & \\\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Julius-Maximilians-Universität}, Würzburg & 09/2024 -- heute \\
+\textit{B.A. Musikwissenschaft (bisher: 1,0)} & \\\\
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Gymnasium Veitshöchheim}, Veitshöchheim & 09/2016 -- 06/2024 \\
+\textit{Abitur (1,2)} & \\\\
+\textbf{Eichendorff-Grundschule}, Veitshöchheim & 09/2012 -- 07/2016
+\end{tabularx}
+
+% ==================== ENGAGEMENT UND STIPENDIEN ====================
+\section{Engagement und Stipendien}
+
+\begin{tabularx}{\textwidth}{X r}
+Stipendium der Studienstiftung des deutschen Volkes & 12/2024 -- heute \\
+Stipendium von E-Fellows & 06/2024 -- heute \\
+Stipendium des MozartLabors (im Rahmen des MozartFests) & 04-/2025 -- 07/2025 \\
+Mitglied im Bayerischen Landesjugendorchester & 05/2024 -- 12/2024 \\
+Ehrenamtliche Konzerte (Erhalt von Kirchen) & 05/2018 -- 06/2022
+\end{tabularx}
+
+% ==================== FÄHIGKEITEN UND INTERESSEN ====================
+\section{Fähigkeiten und Interessen}
+
+\textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Französisch (B2), Italienisch (A2)
+
+\textbf{Technische Fähigkeiten:} Python, LaTeX, Git, R (Grundlagen), MS Office
+
+\end{document}
