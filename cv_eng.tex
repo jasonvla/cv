@@ -5,14 +5,23 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
-\usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{setspace}
 \usepackage{fontawesome5}
 \usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
 
+\usepackage{tabularx}
 
+\newcommand{\cvdoubleitem}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}l X >{\bfseries}l X@{}}
+    #1 & #2 & #3 & #4 \\
+  \end{tabularx}
+  \vspace{0.4em}
+}
 % -------------------- Layout --------------------
 \geometry{
   left=2.5cm,
@@ -112,11 +121,22 @@ Volunteer concert activities (church preservation) & 05/2018 -- 06/2022
 \end{tabularx}
 
 % ==================== SKILLS AND INTERESTS ====================
+
 \section{Skills}
+\textbf{Technical} Python, \LaTeX, R (basic), MS Office
 
-\textbf{Languages:} German (native), English (C1), French (B2), Italian (A2)
+\textbf{Utilities:} Git, GitHub, Jupyter Notebook
 
-\textbf{Technical Skills:} Python, \LaTeX, Git, R (basic), MS Office
+\textbf{Languages:} German (native), English (fluent, C1), French (advanced, B2), Italian (basic, A2)
 
+\section*{Musical Activities}
+
+\begin{itemize}
+  \item \textit{since 2024} — Piano
+  \item \textit{since 2022} — Principal Viola, \textbf{Musica Medica}
+  \item \textit{since 2022} — Member of the \textbf{JKO Würzburg}
+  \item \textit{since 2011} — Viola and Violin
+\end{itemize}
+\end{document}
 \end{document}
 
