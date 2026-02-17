@@ -1,0 +1,142 @@
+\documentclass[11pt,a4paper]{article}
+
+% -------------------- Pakete --------------------
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+
+\usepackage{tabularx}
+
+\newcommand{\cvdoubleitem}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}l X >{\bfseries}l X@{}}
+    #1 & #2 & #3 & #4 \\
+  \end{tabularx}
+  \vspace{0.4em}
+}
+% -------------------- Layout --------------------
+\geometry{
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.5em}
+
+% -------------------- Abschnittsformat --------------------
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+% -------------------- Dokument --------------------
+\begin{document}
+
+% ==================== KOPF ====================
+\begin{center}
+    {\LARGE \textbf{Jason Ackermann}}\\[0.6em]
+
+    \faMapMarker*~Würzburg
+    \quad
+    \faEnvelope~\href{mailto:burgessjason613@gmail.com}{burgessjason613@gmail.com}
+    \quad
+    \faPhone~+49\,XXX\,XXXXXXX
+    \\[0.4em]
+
+    \faGithub~\href{https://github.com/jasonvla}{github.com/jasonvla}
+    \quad
+    \faLinkedin~\href{https://linkedin.com/in/...}{linkedin.com/in/...}
+\end{center}
+% ==================== PRAKTISCHE ERFAHRUNGEN ====================
+\section{Experience}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Student Research Assistant}, Würzburg & commencing 04/2026 \\
+Computer-assisted data analysis, participation in research projects 
+
+(Supervisor: Prof. Dr. Fabian Moss) & \\
+\end{tabularx}
+%\begin{itemize}
+  %  \item ...
+%\end{itemize}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Orchestra Management}, Würzburg & 02/2026 -- 03/2026\\
+Internship \\
+Focus: personnel and data management in theatre operations & \\
+\end{tabularx}
+
+% ==================== PROJECTS ====================
+\section{Projects}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{An Algorithmic Comparison of Bach and AI Chorales} & 11/2025 -- present \\\\
+Voluntary research project (Supervisor: Prof. Dr. Fabian Moss) & \\
+\end{tabularx}
+\begin{itemize}
+    \item Objective: Comprehensive understanding of AI-generated compositions; presentation of results at the \textit{ICCCM} (September 2026)
+    \item Analysis conducted using self-developed algorithms in \textit{Python}, making use of the \textit{music21} library
+\end{itemize}
+
+% ==================== EDUCATION ====================
+\section{Education}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Julius Maximilian University}, Würzburg & commencing 09/2026 \\
+\textit{B.A. Digital Humanities} & \\\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Julius Maximilian University}, Würzburg & 09/2024 -- present \\
+\textit{B.A. Musicology (currently Ø 1.0)} & \\\\
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Gymnasium Veitshöchheim} & 09/2016 -- 06/2024 \\
+\textit{Abitur (Ø 1.2)} & \\\\
+\end{tabularx}
+
+% ==================== ENGAGEMENT AND SCHOLARSHIPS ====================
+\section{Engagement and Scholarships}
+
+\begin{tabularx}{\textwidth}{X r}
+Scholarship of the \textbf{German National Academic Foundation} 
+
+(Studienstiftung des deutschen Volkes) & 12/2024 -- present \\\\
+\textbf{E-Fellows Scholarship} & 06/2024 -- present \\\\
+\textbf{MozartLabor Scholarship} (as part of the MozartFest) & 04/2025 -- 07/2025 \\\\
+Member of the \textbf{Bavarian State Youth Orchestra} & 05/2024 -- 12/2024 \\\\
+Volunteer concert activities (church preservation) & 05/2018 -- 06/2022
+\end{tabularx}
+
+% ==================== SKILLS AND INTERESTS ====================
+
+\section{Skills}
+\textbf{Technical} Python, \LaTeX, R (basic), MS Office
+
+\textbf{Utilities:} Git, GitHub, Jupyter Notebook
+
+\textbf{Languages:} German (native), English (fluent, C1), French (advanced, B2), Italian (basic, A2)
+
+\section*{Musical Activities}
+
+\begin{itemize}
+  \item \textit{since 2024} — Piano
+  \item \textit{since 2022} — Principal Viola, \textbf{Musica Medica}
+  \item \textit{since 2022} — Member of the \textbf{JKO Würzburg}
+  \item \textit{since 2011} — Viola and Violin
+\end{itemize}
+\end{document}
+\end{document}
+
